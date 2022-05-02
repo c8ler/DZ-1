@@ -3,13 +3,13 @@
 // числа от 1 до N.
 
 Console.Write("Введите число: ");
-int num = int.Parse(Console.ReadLine());
+int N = int.Parse(Console.ReadLine());
 int i = 2;
-while (i < num + 1)
+while (i < N + 1)
 {
     Console.Write(i);
     i += 2;
-    if(i < num + 1)
+    if(i < N + 1)
     {
         Console.Write(", ");
     }
